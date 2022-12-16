@@ -1,0 +1,72 @@
+• Are the HTML tags and elements the same thing? 
+Ans. No, HTML tags and elements are not the same thing. tags which contain content called elements. 
+
+• What are tags and attributes in HTML? 
+Ans. Tags are used to describe the structure of content and attributes are used to change 
+characteristics of elements.  
+
+• What are void elements in HTML?
+Ans. Self closing tags are void elements.they dont have closing tag or content.
+
+• What are HTML Entities? 
+Ans. HTML character entities are used as a replacement of reserved characters in HTML.
+
+• What are different types of lists in HTML? 
+Ans. There are three types of HTML lists.
+      1. Ordered list 
+      2. Unordered list
+      3. Description list.
+
+• What is the ‘class’ attribute in HTML? 
+Ans.  The class attribute specifies one or more class names for an HTML element.
+
+• What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML
+elements? 
+Ans. A Class name can be used by multiple HTML elements and multiple classes can given 
+to single element, while an ID name must only be used by one HTML element within the page.
+
+• What are the various formatting tags in HTML? 
+Ans. formatting tags are used to change style of content.<B>bold,<i>italic,<strong> are examples.
+
+• How is Cell Padding different from Cell Spacing?
+Ans. cell Padding is space between border and content while cell Spacing is space between 
+border and cell or space between two cells.
+
+• How can we club two or more rows or columns into a single row or column in an
+HTML table?
+Ans. we club two or more rows or columns into a single row or column in an HTML table by
+rowspan and colspan attributes.
+
+• What is the difference between a block-level element and an inline element? 
+Ans. block-level elements covers whole line while inline element covers only neccecery space.
+blocl-level elements starts from new line while inline elements starts from the same line.
+
+• How to create a Hyperlink in HTML? 
+Ans. To creat Hyperlink in HTML use anchor-tag <a>. <a href=""> put url between inverted commas.
+
+• What is the use of an iframe tag? 
+Ans. iframe tag is used for create frame and embed anther document to HTML document.
+
+• What is the use of a span tag? Explain with example? 
+Ans. The <span> tag is an inline container used to mark up a part of a text, or a part of a
+document.it is used for styling purpose.ex. 
+     <p>Her favourite colour is <span style="color:pink">pink.</span></p>
+
+• How to insert a picture into a background image of a web page?
+Ans. Background image attribute can be used to insert a picture into a background image of
+a web page.
+
+• How are active links different from normal links? 
+Ans. Normal links are unvisited links and active links are visited links.when normal link is 
+clicked it becomes active link and changes it's color.
+
+• What are the different tags to separate sections of text? 
+Ans. The different tags to separate sections of text are <br>,<p>,<div>,<span> etc.
+
+• What is difference between HTML and XHTML? 
+Ans. HTML is the standard markup language for creating web pages, while XHTML is a stricter
+ and more standardized version of HTML.
+
+ • What are logical and physical tags in HTML? 
+ Ans. Logical Tags are used in HTML to display the text according to the logical styles.
+ physical Tags are used in HTML to provide actual physical formatting to the text.
