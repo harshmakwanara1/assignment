@@ -1,0 +1,192 @@
+• What are the benefits of using CSS?
+ans. benifits of css are
+ 1. Separation of content and presentation: CSS allows you to separate the presentation of a web page from its content. This makes it easier to make changes to the design and layout of a website without having to change the content.
+
+2. Consistency: CSS allows you to apply the same style to multiple pages on a website, which helps to maintain consistency and a uniform look and feel.
+
+3. Increased download speed: Since CSS files are separate from the HTML content, they can be cached by the browser, which can speed up the download time of a website.
+
+4. Better accessibility: CSS can be used to create layouts and styles that are more accessible to users with disabilities. For example, CSS can be used to create high contrast designs for users with visual impairments.
+5. Search engine optimization (SEO): CSS can be used to structure a website in a way that is more easily readable by search engines, which can improve a website's search engine ranking.
+
+6. Easier maintenance: CSS allows you to make global changes to the design of a website by updating a single style sheet, which makes it easier to maintain and update a website over time.
+
+Overall, CSS provides a powerful tool for web designers and developers to create consistent, accessible, and attractive websites that are easy to maintain and optimize for search engines.
+
+
+• What are the disadvantages of CSS?
+ans. disadvantages of css are
+1. Cross-browser compatibility: Different web browsers may interpret CSS rules differently, leading to inconsistencies in how a web page appears to users.
+
+2. Learning curve: CSS has a steep learning curve, especially for those who are new to web development. There are many concepts, rules, and syntax to understand, and it can take time and practice to master.
+
+3.Limited layout capabilities: While CSS offers a lot of flexibility in terms of styling, it has limitations in terms of layout capabilities. This can make it difficult to achieve complex layouts, especially when working with older browsers.
+
+4. Code bloat: CSS can quickly become bloated and difficult to manage, especially in large projects. This can lead to slower load times, and can make it difficult to make changes or fix issues.
+
+5. Browser performance: While CSS can make pages look great, it can also slow down the performance of the web browser, especially on older devices or slower connections.
+
+Overall, while CSS is an essential part of modern web development, it does have its limitations and can be challenging to work with in certain situations.
+
+
+• What is the difference between CSS2 and CSS3?
+ans. Difference between CSS2 and CSS3 are 
+1. Selectors: CSS3 introduced several new types of selectors that allow for more granular control over page elements. For example, CSS3 includes attribute selectors, which can be used to target elements based on their attributes.
+
+2. Media queries: CSS3 added support for media queries, which allow developers to apply different styles based on the size and orientation of the user's device. This is essential for creating responsive designs that look great on different devices.
+
+3. Transitions and animations: CSS3 introduced new properties that make it easier to create animations and transitions. For example, the transition property allows developers to create smooth transitions between different styles, while the animation property allows for more complex animations.
+
+4. Flexbox and Grid layout: CSS3 introduced two new layout modules, Flexbox and Grid, which provide more powerful and flexible layout options than were available in CSS2. These layout modules make it easier to create complex, responsive layouts.
+
+5. Multiple backgrounds and gradients: CSS3 introduced support for multiple backgrounds and gradients, which can be used to create more complex visual effects.
+
+Overall, CSS3 introduced many new features and capabilities that make it easier to create complex, responsive web designs. While there are still many sites that use CSS2, most modern web developers use CSS3 as their primary styling language.
+
+
+• Name a few CSS style components
+ans. CSS style components are selector,properties ans values.
+
+
+• What do you understand by CSS opacity? 
+ans. CSS opacity is a property that can be used to control the transparency of an element on a web page. The opacity property is specified as a value between 0 and 1, with 0 being completely transparent and 1 being completely opaque.
+
+When an element is given an opacity value less than 1, it becomes partially transparent and allows the content behind it to show through. This can be used to create interesting visual effects, such as a text overlay on top of an image that allows the image to show through.
+
+
+• How can the background color of an element be changed? 
+ans. The background color of an element can be changed by 'background-color' property of CSS.
+
+
+• How can image repetition of the backup be controlled?
+ans. An image repetition of the backup is controlled in CSS. This task can be achieved by using the background-repeat property that will help us to control the repetition of the image. The background-repeat property in CSS is used to repeat the background image both horizontally and vertically.
+
+
+• What is the use of the background-position property?
+ans. The background-position property in CSS is mainly used to sets the initial position for the background image ie., it is used to set an image at a certain position.
+
+
+
+• Which property controls the image scroll in the background?
+ans. 'background-attachment' property controls the image scroll in the background.
+
+
+• Why should background and color be used as separate properties?
+ans. The reasons for this are as follows:
+1. It increases the legibility of the style sheets. The background property is a complex property in CSS. If it is combined with color, the complexity will further increase.
+2. Color is inherited, but background isn’t. This can further increase the confusion.
+
+
+• How to center block elements using CSS1? 
+ans. To center block elements using CSS1 we can use 'margin : auto' or 'text-align : center' properties.
+
+
+• How to maintain the CSS specifications? 
+ans. Maintaining CSS specifications involves a collaborative effort between various stakeholders, including web developers, browser vendors, and the CSS working group. Here are a few steps that can help to maintain CSS specifications:
+
+1. Follow the specification: Developers should follow the CSS specification closely when writing CSS code to ensure that it is compliant and does not rely on any non-standard features.
+
+2. Provide feedback: Developers and other stakeholders should provide feedback to the CSS working group when they encounter issues with the specifications or have suggestions for improvements.
+
+3. Test implementations: Browser vendors should test their implementations of the CSS specification to ensure that they are accurate and consistent with the specification.
+
+4. Fix bugs: Browser vendors should fix any bugs that are discovered in their implementations of the CSS specification.
+
+5. Update the specification: The CSS working group should update the specification as needed to address issues, incorporate feedback, and add new features.
+
+6. Maintain compatibility: The CSS working group should strive to maintain backwards compatibility with older versions of the specification to ensure that web developers can continue to use existing code.
+
+7. Provide resources: The CSS working group should provide resources, such as documentation and test suites, to help developers and browser vendors implement the specification correctly.
+
+By following these steps, CSS specifications can be maintained and updated in a way that benefits all stakeholders and ensures that the web remains a platform for innovation and creativity.
+
+
+• What are the ways to integrate CSS as a web page? 
+CSS can be integrated in three ways:
+
+Inline: term is used when the CSS code have attribute of HTML elements
+<p style="colour:skyblue;"> hello world!</p>
+
+External: separate CSS file is created in the workspace and later linking them in every web page that is created
+<head>
+
+  <link rel="text/css"
+
+href="your_CSS_file_location"/>
+
+</head>
+
+Internal: the head element of the web page has internal CSS implemented in it
+<head>
+
+  <style>
+
+    p{
+
+       color:lime;
+
+       background-color:black;
+
+      }
+
+   </style>
+
+</head>
+
+
+• What is embedded style sheets? 
+ans. Embedded style sheets refer to when you embed style sheet information into an HTML document using the <style> element. You do this by embedding the style sheet information within <style></style> tags in the head of your document.
+
+
+• What are the external style sheets? 
+ans. An external style sheet is a separate file linked to an HTML web page. It comes with a .css filename extension. All the styles that need to be used on a website can be declared in the external style sheet. include that file in your HTML document using HTML <link> tag.
+
+
+• What are the advantages and disadvantages of using external style sheets?
+ans.
+The advantages of External Style Sheets are:
+
+- Using them, the styles of multiple documents can be controlled from one file.
+- Classes can be created for use on multiple HTML element types in many documents.
+- In complex situations, selector and grouping methods can be used to apply styles.
+
+The disadvantages of External Style Sheets are:
+
+- In order to import style information for each document, an extra download is needed.
+- Until the external style sheet is loaded, it may not be possible to render the document.
+- For small number of style definitions, it is not viable.
+
+
+• What is the meaning of the CSS selector? 
+ans. CSS selectors are used to "find" (or select) the HTML elements you want to style.
+
+We can divide CSS selectors into five categories:
+
+1. Simple selectors (select elements based on name, id, class)
+2. Combinator selectors (select elements based on a specific relationship between them)
+3. Pseudo-class selectors (select elements based on a certain state)
+4. Pseudo-elements selectors (select and style a part of an element)
+5. Attribute selectors (select elements based on an attribute or attribute value)
+
+
+• What are the media types allowed by CSS?
+ans.  the media types allowed by CSS are all,braille,embossed,handheld,print,projection,screen,speech,tty and tv.
+
+
+• What is the rule set? 
+ans. A CSS ruleset is various affirmations to various pieces or elements of the document. The objective is to apply a bunch of properties for certain distinct qualities to a solitary, or a particular arrangement of components in the connected HTML page. 
+
+
+
+HTML5 QUESTIONS:
+
+• What are the new tags added in HTML5?
+ans. the new tags added in HTML5 are <aside>,<figure>,<header>,<footer>,<main>,<mark>,<nav>,<section>etc.
+
+
+• How to embed audio and video in a webpage?
+ans. we can embed audio by <audio> tag and video by <video> tag in HTML5.
+
+
+• Semantic element in HTML5?
+ans. Semantic element in HTML5 are <article>,<aside>,<details>,<figcaption>,<figure>,<footer>,<header>,<main>,<mark>,<nav>,<section>,<summary,<time> etc.

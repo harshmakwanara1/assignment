@@ -1,0 +1,116 @@
+• What is JavaScript?
+ans. JavaScript often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.
+
+
+• What is the use of isNaN function? 
+ans. The isNaN() function is used to check whether a given value is an illegal number or not. It returns true if value is a NaN else returns false. It is different from the Number.isNaN() Method.
+
+
+• What is negative Infinity?
+ans. The negative infinity in JavaScript is a constant value that is used to represent a value that is the lowest available. This means that no other number is lesser than this value. It can be generated using a self-made function or by an arithmetic operation.
+
+
+• Which company developed JavaScript?
+ans. JavaScript is developed by Netscape.
+
+
+• What are undeclared and undefined variables?
+ans. Undefined: It occurs when a variable has been declared but has not been assigned any value. Undefined is not a keyword. 
+
+Undeclared: It occurs when we try to access any variable that is not initialized or declared earlier using the var or const keyword. If we use ‘typeof’ operator to get the value of an undeclared variable, we will face the runtime error with the return value as “undefined”. The scope of the undeclared variables is always global. 
+
+
+• Write the code for adding new elements dynamically?
+ans. 
+document.createElement("<tagName>");  
+// Where <tagName> can be any HTML 
+// tagName like div, ul, button, etc.
+
+// newDiv element has been created
+For Eg: let newDiv = document.createElement("div");
+
+
+• What is the difference between ViewState and SessionState?
+ans. The basic difference between these two is that the ViewState is to manage state at the client’s end, making state management easy for end-user while SessionState manages state at the server’s end, making it easy to manage content from this end too.
+
+
+• What is === operator?
+ans. this is strict equality operator. The strict equality (===) operator checks whether its two operands are equal, returning a Boolean result. Unlike the equality operator, the strict equality operator always considers operands of different types to be different.
+
+
+• How can the style/class of an element be changed?
+ans. It can be done in the following way: 
+document.getElementById ("myText").style.fontSize = "20?; 
+or 
+document.getElementById ("myText").className = "anyclass";
+
+
+• How to read and write a file using JavaScript?
+ans. There are two ways to do it:
+
+1. Using JavaScript extensions (runs from JavaScript Editor), or
+
+2. Using a web page and ActiveX objects (Internet Explorer only)
+
+In JavaScript Extensions, you can use
+fh = fopen(getScriptPath(), 0); to open a file
+
+Using ActiveX objects, following should be included in your code to read a file:
+var fso = new ActiveXObject("Scripting.FileSystemObject");
+var s = fso.OpenTextFile("C:\\example.txt", 1, true);
+
+
+• What are all the looping structures in JavaScript? 
+ans. there are 5 types of loops in JavaScript.
+    for (let index = 0; index < array.length; index++) {
+        const element = array[index];
+        
+    }
+    for (const key in object) {
+        if (Object.hasOwnProperty.call(object, key)) {
+            const element = object[key];
+            
+        }
+    }
+    for (const iterator of object) {
+        
+    }
+    while (condition) {
+        
+    }
+    do {
+        
+    } while (condition);
+
+
+• How can you convert the string of any base to an integer in JavaScript?
+ans. we can convert a string into an integer in Javascript. In JavaScript parseInt() function (or a method) is used to convert the passed-in string parameter or value to an integer value itself. This function returns an integer of the base which is specified in the second argument of the parseInt() function. JavaScript parseInt() function returns Nan( not a number) when the string doesn’t contain a number. 
+
+
+• What is the function of the delete operator?
+ans. The delete operator removes a property from an object. If the property's value is an object and there are no more references to the object, the object held by that property is eventually released automatically.
+
+
+• What are all the types of Pop up boxes available in JavaScript? 
+ans. In Javascript, popup boxes are used to display the message or notification to the user. There are three types of pop-up boxes in JavaScript namely Alert Box, Confirm Box and Prompt Box.
+
+
+• What is the use of Void (0)? 
+ans. javascript: void (0) means return undefined as a primitive value. We use this to prevent any negative effects on a webpage when we insert some expression. For example, in the case of URL hyperlinks.
+
+
+• How can a page be forced to load another page in JavaScript?
+ans. we can redirect a web page via JavaScript using a number of methods. If you want a cross-browser compliant JavaScript redirect script, better to use the following scripts.
+window.location.href = url;
+
+
+• What are the disadvantages of using innerHTML in JavaScript?
+ans. Disadvantages of using innerHTML property in JavaScript:
+
+1.The use of innerHTML very slow: The process of using innerHTML is much slower as its contents as slowly built, also already parsed contents and elements are also re-parsed which takes time.
+
+2. Preserves event handlers attached to any DOM elements: The event handlers do not get attached to the new elements created by setting innerHTML automatically. To do so one has to keep track of the event handlers and attach it to new elements manually. This may cause a memory leak on some browsers.
+
+3. Content is replaced everywhere: Either you add, append, delete or modify contents on a webpage using innerHTML, all contents is replaced, also all the DOM nodes inside that element are reparsed and recreated.
+
+4. Appending to innerHTML is not supported: Usually, += is used for appending in JavaScript. But on appending to an Html tag using innerHTML, the whole tag is re-parsed.
